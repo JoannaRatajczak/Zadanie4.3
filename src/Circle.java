@@ -1,7 +1,11 @@
 public class Circle {
     double r;
 
-    Circle(double ar){
-        r=ar;
+    double circleArea() {
+        return (r * r) * 3.14;
+    }
+
+    Circle(double ar) {
+        r = ar;
     }
 }
